@@ -7,11 +7,12 @@ body {
 
 #hero {
     width: 592px;
-    margin: 72px;
+/* faltavam parametros para centralizar corretamente */
+    margin: 0 auto 72px;
 }
 
 img {
-    margin: 72px;
+    margin-bottom: 72px;
 }
 
 h1 {
@@ -46,13 +47,13 @@ p, #footer {
     width: 568px;
     height: 0;
 
-    margin: 0 8px;
+    margin: 0 auto 8px;
 
     border: 1px solid #ECEFF2;
 }
 
 #balls {
     position: fixed;
-    top: 0;
-    right: 0;
+    bottom: 0px;
+    right: 0px;
 }
